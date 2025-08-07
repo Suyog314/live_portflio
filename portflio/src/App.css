@@ -1,5 +1,4 @@
 
-/* Base styles */
 body {
   background-color: #121212;
   color: #ffffff;
@@ -8,15 +7,13 @@ body {
   padding: 0;
 }
 
-/* Centered container like a PDF */
 .portfolio-container {
-  max-width: 768px; /* Tablet width */
+  max-width: 768px;
   margin: 0 auto;
   padding: 40px 24px;
   box-sizing: border-box;
 }
 
-/* Header */
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -32,7 +29,6 @@ header h1 {
   font-size: 1rem;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: center;
@@ -45,15 +41,14 @@ header h1 {
 
 .navbar a {
   text-decoration: none;
-  color: #604990;  /* Soft orange accent */
+  color: #604990;
   font-weight: 500;
 }
- 
+
 .navbar a:hover {
   text-decoration: underline;
 }
 
-/* Sections */
 section {
   margin-bottom: 40px;
 }
@@ -70,10 +65,27 @@ section ul {
   padding-left: 20px;
 }
 
-/* Footer */
 footer {
   text-align: center;
   font-size: 0.9rem;
   color: #888;
   margin-top: 60px;
 }
+
+
+
+.section-with-image {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
